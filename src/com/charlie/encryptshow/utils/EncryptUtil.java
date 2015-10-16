@@ -57,7 +57,7 @@ public final class EncryptUtil {
     }
 
     /**
-     * RSA 加密
+     * RSA 解密
      * @param data
      * @param key：可以是publicKey，也可以是privateKey
      * @return
@@ -107,6 +107,7 @@ public final class EncryptUtil {
 
             // 3 生成，并且返回
             ret = generator.generateKeyPair();
+
 
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();

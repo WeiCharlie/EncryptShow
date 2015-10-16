@@ -12,7 +12,7 @@ import android.view.View;
  */
 public class RSAActivity extends Activity {
 
-
+// 创建RSA的
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
